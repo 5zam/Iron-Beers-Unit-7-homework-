@@ -1,0 +1,36 @@
+.random-coffee-container {
+    padding: 20px;
+  }
+  
+  .random-coffee-container {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .random-coffee-container img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .random-coffee-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .random-coffee-container p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Since you're using Angular-like template syntax, make sure to replace the template expressions with actual values in your application */
+  
+  

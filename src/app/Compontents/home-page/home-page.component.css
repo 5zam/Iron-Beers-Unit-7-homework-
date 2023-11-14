@@ -1,0 +1,89 @@
+.home-links {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  gap: 20px; /* Adjust the space between items */
+}
+
+.home-links a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-bottom: 50px; /* Adjust the space below the link */
+  position: relative;
+}
+
+.home-links img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px; /* Adjust the space between the image and the text */
+}
+
+.home-links span.description {
+  display: block;
+  text-align: center;
+  margin-top: 10px; /* Space between the image and description */
+  font-style: italic;
+  color: #555;
+}
+.home-links a:hover img {
+  transform: scale(1.05);
+}
+/* Add this to your existing a:after styles if you want the description to appear on hover */
+.home-links a:hover:after {
+  content: attr(data-description);
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  /* background-color: rgba(255,255,255,0.9); */
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+}
+
+
+.home-links span {
+  display: block;
+  margin-top: 20px; /* Adds space between the text and the description */
+  color: #666;
+  font-size: 32px;
+}
+
+
+
+.home-links a:after {
+  content: attr(alt);
+  display: block;
+  padding: 20px;
+  /* background-color: rgba(255,255,255,0.85); */
+  position: relative;
+  top: 0px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .home-links {
+    flex-direction: column;
+  }
+
+  .home-links a {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+

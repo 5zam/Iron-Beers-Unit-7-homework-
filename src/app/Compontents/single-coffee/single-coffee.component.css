@@ -1,0 +1,35 @@
+.single-coffee-container {
+    padding: 20px;
+  }
+  
+  .single-coffee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .coffee-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* You can add more CSS styling as needed */
+  
+  

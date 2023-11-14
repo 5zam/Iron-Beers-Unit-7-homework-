@@ -1,0 +1,32 @@
+
+
+ <app-header-home></app-header-home>
+<div class="list-coffees-container">
+  <h2>You Find Here All Coffees, Click Details to see more</h2>
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="searchQuery" (input)="searchCoffees()" placeholder="Search for coffees...">
+  </div>
+  <div class="coffee-list">
+    <div *ngFor="let coffee of coffees" class="coffee-item">
+      <img [src]="coffee.image_url" alt="{{ coffee.name }}" class="coffee-image">
+      <div class="coffee-content">
+        <h2>{{ coffee.name }}</h2>
+        <p>{{ coffee.tagline }}</p>
+        <p>Contributed by: {{ coffee.contributed_by }}</p>
+        <a [routerLink]="['/coffees', coffee.id]" class="details-button">Details</a>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- <div class="coff">
+
+  <h2>Coffees</h2>
+  <div class="photo" *ngFor="let coffee of coffees">
+    <img [src]="coffee.image_url" alt="{{ coffee.name }} Image" style="width: 100px; height: 100px;  text-align: left;">
+    <h3>{{ coffee.name }}</h3>
+    <p>{{ coffee.tagline }}</p>
+    <p>Contributed by: {{ coffee.contributed_by }}</p>
+  </div>
+  <app-single-coffee></app-single-coffee>
+</div> -->
