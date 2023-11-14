@@ -1,0 +1,36 @@
+<app-header-home></app-header-home> 
+<div class="new-coffee-container">
+    <h2>Create a New Coffee</h2>
+    <!-- Form for creating a new coffee -->
+    <form [formGroup]="coffeeForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" formControlName="name">
+      </div>
+      <div>
+        <label for="tagline">Tagline:</label>
+        <input type="text" id="tagline" formControlName="tagline">
+      </div>
+      <div>
+        <label for="description">Description:</label>
+        <textarea id="description" formControlName="description"></textarea>
+      </div>
+      <div>
+        <label for="first_roasted">First Roasted:</label>
+        <input type="text" id="first_roasted" formControlName="first_roasted">
+      </div>
+      <div>
+        <label for="roaster_tips">Roaster Tips:</label>
+        <textarea id="roaster_tips" formControlName="roaster_tips"></textarea>
+      </div>
+      <div>
+        <label for="strength_level">Strength Level:</label>
+        <input type="number" id="strength_level" formControlName="strength_level">
+      </div>
+      <div>
+        <label for="contributed_by">Contributed By:</label>
+        <input type="text" id="contributed_by" formControlName="contributed_by">
+      </div>
+      <button type="submit">Create Coffee</button>
+    </form>
+  </div>

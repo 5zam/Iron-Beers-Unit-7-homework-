@@ -9,7 +9,7 @@
   </div>
    -->
 
-   <!-- <app-header-home></app-header-home> -->
+   <app-header-home></app-header-home> 
    <div class="single-coffee-container">
     <img [src]="coffee.image_url" alt="{{ coffee.name }}" class="coffee-image">
     <h2>{{ coffee.name }}</h2>
@@ -20,3 +20,12 @@
     <p>Contributed By: {{ coffee.contributed_by }}</p>
   </div>
   
+
+   <!-- <div *ngIf="coffee" class="coffee-details-container">
+    <h2 class="coffee-details-heading">Coffee Details</h2>
+    <h3 class="coffee-name">{{ coffee.name }}</h3>
+    <p><strong>Tagline:</strong> {{ coffee.tagline }}</p>
+    <p><strong>Strength Level:</strong> {{ coffee.strength_level }}</p>
+    <p><strong>Description:</strong> {{ coffee.description }}</p>
+    <p><strong>Contributed by:</strong> {{ coffee.contributed_by }}</p>
+  </div> -->
