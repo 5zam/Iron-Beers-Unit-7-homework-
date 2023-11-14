@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
+#Sample image
+![image](https://github.com/5zam/Iron-Beers-Unit-7-homework-/assets/146082269/3d16482f-a6af-45b7-973d-245d311a3bfe)
+![image](https://github.com/5zam/Iron-Beers-Unit-7-homework-/assets/146082269/64141609-2fa9-4f65-bb86-42b24dcb6f12)
+![image](https://github.com/5zam/Iron-Beers-Unit-7-homework-/assets/146082269/8d823bf4-4d98-4e9a-958c-81aad564d222)
+![image](https://github.com/5zam/Iron-Beers-Unit-7-homework-/assets/146082269/a216fa7b-b514-472b-9ca1-9ed1653ed68c)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
